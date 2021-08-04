@@ -1,3 +1,4 @@
+includeBuild("buildSrc2")
 include(
     ":common:utils",
     ":common:database",
