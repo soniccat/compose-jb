@@ -19,9 +19,9 @@ actual fun rememberScrollbarAdapter(
     averageItemSize: Dp
 ): ScrollbarAdapter =
     androidx.compose.foundation.rememberScrollbarAdapter(
-        scrollState = scrollState,
-        itemCount = itemCount,
-        averageItemSize = averageItemSize
+        scrollState = scrollState//,
+        //itemCount = itemCount,
+        //averageItemSize = averageItemSize
     )
 
 @Composable
